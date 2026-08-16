@@ -1,0 +1,7 @@
+{
+  "name": "Logan Barbershop",
+  "description": "Aplicación web exclusiva y sistema de reservas para Logan Barbershop. Tu Estilo. Tu Corte. Tu Identidad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
