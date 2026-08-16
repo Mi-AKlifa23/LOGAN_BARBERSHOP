@@ -70,7 +70,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ onOpenBooking 
                     <MessageCircle className="w-4 h-4 text-[#25D366]" />
                     <span className="font-semibold">WhatsApp Directo</span>
                   </div>
-                  <span className="text-xs text-[#8E95A5] group-hover:text-white transition-colors">+1 (555) 892-LOGAN</span>
+                  <span className="text-xs text-[#8E95A5] group-hover:text-white transition-colors">+51 918 821 458</span>
                 </a>
 
                 <a
