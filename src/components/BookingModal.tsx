@@ -505,7 +505,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                       required
                       value={clientPhone}
                       onChange={(e) => setClientPhone(e.target.value)}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+51 918 821 458"
                       className="w-full pl-9 pr-3 py-2.5 rounded-lg bg-[#141822] border border-[#262E3E] focus:border-[#E5B84B] text-sm text-white focus:outline-none"
                     />
                     <Phone className="w-4 h-4 text-[#6A7486] absolute left-3 top-3" />
@@ -616,7 +616,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
               {/* Action Buttons */}
               <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
                 <a
-                  href={`https://wa.me/1234567890?text=Hola,%20acabo%20de%20reservar%20la%20cita%20${confirmedAppointment.id}%20para%20${encodeURIComponent(confirmedAppointment.serviceName)}%20el%20${confirmedAppointment.date}%20a%20las%20${confirmedAppointment.time}`}
+                  href={`https://wa.me/51918821458?text=Hola,%20acabo%20de%20reservar%20la%20cita%20${confirmedAppointment.id}%20para%20${encodeURIComponent(confirmedAppointment.serviceName)}%20el%20${confirmedAppointment.date}%20a%20las%20${confirmedAppointment.time}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2.5 rounded-lg bg-[#162B1D] hover:bg-[#1E3A27] border border-[#25D366]/40 text-xs font-semibold text-[#25D366] flex items-center gap-2 cursor-pointer transition-colors"
