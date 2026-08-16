@@ -120,7 +120,7 @@ export const MyAppointmentsModal: React.FC<MyAppointmentsModalProps> = ({
 
                 <div className="pt-2 flex items-center justify-between gap-3 border-t border-[#202735]">
                   <a
-                    href={`https://wa.me/1234567890?text=Hola,%20quisiera%20consultar%20sobre%20mi%20cita%20${appt.id}`}
+                    href={`https://wa.me/51918821458?text=Hola,%20quisiera%20consultar%20sobre%20mi%20cita%20${appt.id}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-[#25D366] hover:underline flex items-center gap-1.5 font-medium"

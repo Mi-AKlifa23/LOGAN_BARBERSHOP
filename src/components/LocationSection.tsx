@@ -61,7 +61,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ onOpenBooking 
               {/* Contact Links */}
               <div className="pt-4 border-t border-[#1E2432] space-y-3">
                 <a
-                  href="https://wa.me/1234567890?text=Hola%20Logan%20Barbershop,%20deseo%20consultar%20sobre%20una%20cita"
+                  href="https://wa.me/51918821458?text=Hola%20Logan%20Barbershop,%20deseo%20consultar%20sobre%20una%20cita"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-3 rounded-lg bg-[#171D28] hover:bg-[#1F2736] border border-[#283244] text-sm text-[#E0E5EE] transition-colors group cursor-pointer"
@@ -74,14 +74,14 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ onOpenBooking 
                 </a>
 
                 <a
-                  href="tel:+15558925642"
+                  href="tel:+51 918 821 458"
                   className="flex items-center justify-between p-3 rounded-lg bg-[#171D28] hover:bg-[#1F2736] border border-[#283244] text-sm text-[#E0E5EE] transition-colors group cursor-pointer"
                 >
                   <div className="flex items-center gap-3">
                     <Phone className="w-4 h-4 text-[#E5B84B]" />
                     <span className="font-semibold">Llamada Telefónica</span>
                   </div>
-                  <span className="text-xs text-[#8E95A5] group-hover:text-white transition-colors">(555) 892-5642</span>
+                  <span className="text-xs text-[#8E95A5] group-hover:text-white transition-colors">(+51) 918-821-458</span>
                 </a>
               </div>
 
